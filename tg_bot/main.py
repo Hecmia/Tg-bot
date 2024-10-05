@@ -4,7 +4,6 @@ from config_reader import config
 from aiogram import Bot, Dispatcher
 from handlers import questions
 
-
 logging.basicConfig(level=logging.INFO)
 
 
