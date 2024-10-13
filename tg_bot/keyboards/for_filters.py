@@ -2,12 +2,12 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
 
-def get_kb_reviews() -> ReplyKeyboardMarkup:
+def get_kb_poisk() -> ReplyKeyboardMarkup:
     kb = ReplyKeyboardBuilder()
-    kb.button(text="Добавить новый отзыв", width=2)
+    kb.button(text="Поиск по группе", width=2)
     kb.row(
-        KeyboardButton(text="Посмотреть отзыв"),
-        KeyboardButton(text="Назад")
+        KeyboardButton(text="Поиск по предмету"),
+        KeyboardButton(text="Поиск по кафедре")
 
     )
     kb.adjust(1)
