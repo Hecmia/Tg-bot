@@ -1,0 +1,43 @@
+from aiogram.fsm.state import StatesGroup, State
+
+
+class UserReviews(StatesGroup):
+    teacher_name = State()
+    strictness = State()
+    scope_of_work = State()
+    difficulty_of_delivery = State()
+    attitude_to_attending_classes = State()
+    keeps_his_word = State()
+    mercy = State()
+    the_subject = State()
+    reviews_bot = State()
+    note = State()
+    waiting_for_teacher_name = State()
+    waiting_for_subject = State()
+
+
+class MainStates(StatesGroup):
+    waiting_for_group = State()
+    waiting_for_group1 = State()
+    waiting_for_kaf = State()
+    waiting_for_dep = State()
+    waiting_for_sub = State()
+    waiting_for_name = State()
+    waiting_for_depar = State()
+    waiting_for_g = State()
+    waiting_for_d = State()
+    waiting_for_group_teacher = State()
+    waiting_for_g_teacher = State()
+    waiting_for_sub_teacher = State()
+    waiting_name_teacher = State()
+    waiting_gr_teacher = State()
+    waiting_name_teacher1 = State()
+    waiting_for_sub_sub = State()
+    waiting_for_name1 = State()
+    waiting_for_name2 = State()
+    waiting_for_name3 = State()
+    waiting_for_name4 = State()
+    waiting_for_name5 = State()
+    waiting_for_name6 = State()
+    waiting_for_day = State()
+    waiting_full_name = State()

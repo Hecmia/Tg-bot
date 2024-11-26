@@ -1,0 +1,15 @@
+data_dep_dep = {}
+data_sub_u = {}
+data_dep_user = {}
+data_name_teacher = {}
+data_sub = {}
+data_users_student = {}
+data_users_teacher = {}
+data_group_user = {}
+data_group_teacher = {}
+data_dep_u = {}
+data_name_to_search = {}
+entry_count = {}
+data_sub_to_search = {}
+data_dep_to_search = {}
+data_group_to_search = {}
